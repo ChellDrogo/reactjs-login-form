@@ -1,0 +1,42 @@
+.login-button-container, .signup-button-container{
+    text-align: center;
+}
+.login-button-container button, .signup-button-container button{
+    height: 46px;
+    width: 200px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.login-button-container button:hover, .signup-button-container button:hover {
+    transform: scale(1.05);
+}
+
+.login-button-container button:focus {
+    outline: none;
+}
+
+.login{
+    background-color: #807FFD;
+}
+
+.signup{
+    background-color: #08AED8;
+}
+
+.password-reset{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.password-reset:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+
+.logo-container{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    padding: 13px;
+}
